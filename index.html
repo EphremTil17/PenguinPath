@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PenguinPath</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" media="(prefers-color-scheme: dark)">   
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="assets/loopvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">PenguinPath</div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://github.com/EphremTil17/emotion_recognition" target="_blank">GitHub</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-image">
+                        <!-- Replace with your own portrait/image -->
+                        <img src="assets/picture.webp" alt="Profile Picture">
+                    </div>
+                    <h1>Linux Solutions Repository</h1>
+                    <p class="subtitle">A collection of markdown guides solving common Linux problems</p>
+                    <div class="hero-buttons">
+                        <a href="blog.html" class="btn primary">Browse Solutions</a>
+                        <a href="#about" class="btn secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About This Repository</h2>
+                    <p>Welcome to my collection of Linux troubleshooting guides and solutions. As a Linux enthusiast, I've documented my journey through various challenges and compiled them into easily digestible markdown files.</p>
+                    <p>These guides cover a wide range of topics from basic system configuration to advanced networking issues, package management problems, and desktop environment customizations.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-file-alt"></i>
+                            <h3>Markdown Formatted</h3>
+                            <p>Clean, easy-to-read documentation formatted in markdown</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-code-branch"></i>
+                            <h3>Version Controlled</h3>
+                            <p>All solutions tracked in Git for easy reference and updates</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-search"></i>
+                            <h3>Searchable</h3>
+                            <p>Find exactly what you need with our built-in search</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Me Section -->
+        <section id="about-me" class="about-me">
+            <div class="container">
+                <div class="about-me-content">
+                    <h2>About Me</h2>
+                    <div class="about-me-grid">
+                        <div class="about-me-image">
+                            <img src="assets/picture.webp" alt="Ephrem T.">
+                        </div>
+                        <div class="about-me-text">
+                            <h3>Ephrem T.</h3>
+                            <h4>Security and Software Engineer | Photographer</h4>
+                            <p>
+                                Dedicated and innovative engineer with 3+ years of expertise spanning software development, hardware security
+posture, cloud infrastructure, and system development. Proven experience in tooling automation, driver
+development, and enterprise deployment environments (DRBL/WDS). CIS graduate currently pursuing a Master of
+Science in Information Systems (MSIS) at the University of Washington, combining technical depth with strategic
+real-world capabilities
+                            </p>
+                            <p>
+                                When I'm not coding or investigating security vulnerabilities, you'll find me exploring the world through my camera lens, capturing moments that tell compelling stories. This dual passion allows me to approach technical challenges with a creative mindset and an eye for detail.
+                            </p>
+                            <p>
+                                Through PenguinPath, I share my expertise and experiences in Linux environments, hoping to help others navigate the fascinating world of open-source computing while maintaining robust security practices.
+                            </p>
+                            <div class="skills">
+                                <span class="skill-tag">Security</span>
+                                <span class="skill-tag">Linux</span>
+                                <span class="skill-tag">Software Development</span>
+                                <span class="skill-tag">Photography</span>
+                                <span class="skill-tag">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">PenguinPath</div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="https://github.com/EphremTil17/emotion_recognition" target="_blank">GitHub</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/EphremTil17/emotion_recognition" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ephremtil17/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PenguinPath. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
